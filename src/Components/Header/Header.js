@@ -1,8 +1,20 @@
 import React from 'react';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Button from 'react-bootstrap/Button';
+import './Header.css'
 
 const Header = () => {
     return (
-        <h1>Welcome to ¡Pinchè Cafè!</h1>
+        <Jumbotron className="Jumbo">
+            <h1>Welcome to ¡Pinchè Cafè!</h1>
+                <p>
+                    This is a simple hero unit, a simple jumbotron-style component for calling
+                    extra attention to featured content or information.
+                </p>
+                <p>
+                    <Button variant="primary">Learn more</Button>
+                </p>
+        </Jumbotron>
     )
 }
 
