@@ -1,5 +1,12 @@
+.Jumbotron {
+    text-align: center;
+}
+
 .Jumbo {
     background-image: url('/src/images/coffee1.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
+    background-position: center;
+    height: 100vh;
+
 }
