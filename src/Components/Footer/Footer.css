@@ -1,0 +1,69 @@
+#footer {
+  text-align: center;
+  overflow: hidden;
+  background-image: url('/src/images/coffee-beans.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.footer-floater {
+  background: rgba(0, 0, 0, 0.5);
+  width: 80vw;
+  height: 30vh;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 20px;
+}
+.footer-floater h3 {
+  padding: 10px 0;
+}
+
+.footer-floater p {
+  font-size: 1.3em;
+  color: #baa375;
+  font-weight: bold;
+  padding: 0 15px;
+}
+
+.footer-floater a {
+  padding: 0 15px;
+  color: #baa375;
+  font-weight: bold;
+}
+
+.floater-div {
+  display: inline-block;
+  width: 30%;
+  padding: 30px 10px;
+  vertical-align: middle;
+}
+
+.footer-bottom {
+  color: #baa375;
+  font-weight: bold;
+  font-size: 1.4em;
+  margin: 0 35px;
+}
+
+@media screen and (max-width: 1195px) {
+  #footer {
+    font-size: 15px;
+  }
+
+  .footer-floater {
+    width: 420px;
+    height: 95%;
+  }
+
+  .floater-div {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 5px 0;
+  }
+}

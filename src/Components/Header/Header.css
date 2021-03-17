@@ -1,8 +1,8 @@
 .jumbotron {
-    text-align: center;
-    overflow: hidden;
-    background-image: url('/src/images/coffee1.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+  text-align: center;
+  overflow: hidden;
+  background-image: url('/src/images/coffee1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
