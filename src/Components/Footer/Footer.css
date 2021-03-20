@@ -67,3 +67,22 @@
     padding: 5px 0;
   }
 }
+
+@media screen and (max-height: 1105px) {
+  #footer {
+    font-size: 15px;
+  }
+
+  .footer-floater {
+    width: 80%;
+    height: 290px;
+  }
+
+  .floater-div {
+    display: inline-block;
+    width: 30%;
+    margin: 0;
+    padding: 10px 0;
+    vertical-align: middle;
+  }
+}
