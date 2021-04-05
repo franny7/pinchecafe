@@ -48,6 +48,7 @@
   font-weight: bold;
   font-size: 1.4em;
   margin: 0 35px;
+  padding: 20px;
 }
 
 @media screen and (max-width: 1195px) {
@@ -84,5 +85,32 @@
     margin: 0;
     padding: 10px 0;
     vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #footer {
+    font-size: 12px;
+  }
+
+  .footer-floater {
+    width: 80%;
+    height: 310px;
+  }
+
+  .floater-div {
+    display: inline;
+    margin: 0;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .delivery-div {
+    display: none;
+  }
+
+  .footer-bottom {
+    padding: 10px;
   }
 }
