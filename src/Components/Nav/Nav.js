@@ -28,10 +28,7 @@ const navbar = () => {
             </a>
           </li>
           <li className='nav-item'>
-            <a
-              href='https://www.starbucks.com/menu'
-              className='nav-link link-light nav-top-a'
-            >
+            <a href='#popular-drinks' className='nav-link link-light nav-top-a'>
               Popular Drinks
             </a>
           </li>
@@ -65,11 +62,7 @@ const navbar = () => {
               </a>
             </li>
             <li>
-              {/* Change the a tag below to reference our menu instead of starbucks */}
-              <a
-                href='https://www.starbucks.com/menu'
-                className='nav-link link-light'
-              >
+              <a href='#popular-drinks' className='nav-link link-light'>
                 Popular Drinks
               </a>
             </li>
