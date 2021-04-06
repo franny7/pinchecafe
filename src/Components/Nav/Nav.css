@@ -1,5 +1,62 @@
 .nav {
-    background-color: #fff;
-    padding: 10px;
-    position: relative;
+  position: relative;
+}
+
+.nav-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-top-a {
+  padding: 20px 35px;
+  font-size: 1.4em;
+  color: #baa375;
+}
+
+.res-menu {
+  display: none;
+}
+
+/* Put this mq at 750px in the end */
+@media screen and (max-width: 1000px) {
+  #dropdown-content {
+    display: none;
+  }
+
+  .nav-top {
+    display: none;
+  }
+
+  .res-menu {
+    display: inline-flex;
+  }
+
+  .res-menu-content {
+    position: absolute;
+    top: 115px;
+    right: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .res-menu-content ul {
+    margin: 0;
+    padding: 10px 35px;
+    width: 100%;
+  }
+
+  .res-menu-content li {
+    margin: 0;
+    padding: 15px 0;
+    border-bottom: dotted;
+    border-width: 1px;
+    border-color: #494949;
+  }
+
+  .res-menu-content a {
+    float: right;
+    text-decoration: none;
+    color: #baa375;
+    font-size: 1.4rem;
+  }
 }

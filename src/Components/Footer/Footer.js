@@ -3,11 +3,11 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div>
+    <div className='footer-ref'>
       <div className='border-top border-light'>
         <div id='footer' className='row justify-content-center bg-dark'>
           <div className='p-3 mb-2 text-white footer-floater'>
-            <div className='col justify-content-between text-center floater-div'>
+            <div className='col justify-content-between text-center floater-div delivery-div'>
               <h3>Delivery</h3>
               <p>(951)-123-4567</p>
               <p>ordercafe@gmail.com</p>
@@ -36,20 +36,6 @@ const Footer = () => {
 
       <div className='border-top border-light border-3'>
         <ul className='nav justify-content-center fixed-bottom bg-dark'>
-          <li className='nav-item'>
-            <a
-              className='nav-link link-light footer-bottom'
-              aria-current='page'
-              href='#'
-            >
-              Link
-            </a>
-          </li>
-          <li className='nav-item'>
-            <a className='nav-link link-light footer-bottom' href='#'>
-              Link
-            </a>
-          </li>
           <li className='nav-item'>
             <p className='nav-link footer-bottom' href='#'>
               Copyright &copy; 2021
