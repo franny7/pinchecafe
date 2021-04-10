@@ -6,14 +6,11 @@ const Header = () => {
   return (
     <div>
       <Jumbotron>
-        <h1>
+        <h1 className='pt-5'>
           Welcome to <br />
-          ¡Pinchè Cafè!
+          ¡Pinché Café!
         </h1>
-        <p>
-          This is a simple hero unit, a simple jumbotron-style component for
-          calling extra attention to featured content or information.
-        </p>
+        <p className=' pt-3 fs-3'>Wake up. Coffee. Innovate. Repeat.</p>
       </Jumbotron>
     </div>
   );
