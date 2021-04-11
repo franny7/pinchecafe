@@ -1,0 +1,13 @@
+#res-cards {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  #reg-cards {
+    display: none;
+  }
+
+  #res-cards {
+    display: flex;
+  }
+}
