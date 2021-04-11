@@ -22,11 +22,13 @@ const Cards = () => {
               src='https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
             />
             <Card.Body>
-              <Card.Title className='fs-3'>Cappuccino</Card.Title>
+              <Card.Title className='fs-3' style={{ color: '#baa529' }}>
+                Cappuccino
+              </Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                A good cappuccino should give recognizable espresso taste, low
+                acidity, rich structure and rich sweet foam. The art in these
+                drinks also a plus.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -48,10 +50,14 @@ const Cards = () => {
               src='https://images.pexels.com/photos/230588/pexels-photo-230588.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
             />
             <Card.Body>
-              <Card.Title className='fs-3'>Frappuccino</Card.Title>
+              <Card.Title className='fs-3' style={{ color: '#baa529' }}>
+                Frappe
+              </Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{' '}
+                Most Frappe's don't contain coffee, and that means most don't
+                have much caffeine, if any. That's good news for those who are
+                sensitive to caffeine or want a coffee-flavored drink that won't
+                make them bounce off the walls. Perfect for warm summer days.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -73,11 +79,13 @@ const Cards = () => {
               src='https://images.pexels.com/photos/1193335/pexels-photo-1193335.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
             />
             <Card.Body>
-              <Card.Title className='fs-3'>Cold Brew</Card.Title>
+              <Card.Title className='fs-3' style={{ color: '#baa529' }}>
+                Cold Brew
+              </Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
+                Cold Brew: iced coffee's less acidic, richer concentrate cousin
+                made through a prolonged, room temperature brewing process.
+                Perfect for warm days when you have things to get done.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -104,11 +112,13 @@ const Cards = () => {
               src='https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
             />
             <Card.Body>
-              <Card.Title className='fs-3'>Cappuccino</Card.Title>
+              <Card.Title className='fs-3' style={{ color: '#baa529' }}>
+                Cappuccino
+              </Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                A good cappuccino should give recognizable espresso taste, low
+                acidity, rich structure and rich sweet foam. The art in these
+                drinks also a plus.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -130,10 +140,14 @@ const Cards = () => {
               src='https://images.pexels.com/photos/230588/pexels-photo-230588.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
             />
             <Card.Body>
-              <Card.Title className='fs-3'>Frappuccino</Card.Title>
+              <Card.Title className='fs-3' style={{ color: '#baa529' }}>
+                Frappe
+              </Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{' '}
+                Most Frappe's don't contain coffee, and that means most don't
+                have much caffeine, if any. That's good news for those who are
+                sensitive to caffeine or want a coffee-flavored drink that won't
+                make them bounce off the walls. Perfect for warm summer days.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -155,11 +169,13 @@ const Cards = () => {
               src='https://images.pexels.com/photos/1193335/pexels-photo-1193335.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
             />
             <Card.Body>
-              <Card.Title className='fs-3'>Cold Brew</Card.Title>
+              <Card.Title className='fs-3' style={{ color: '#baa529' }}>
+                Cold Brew
+              </Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
+                Cold Brew: iced coffee's less acidic, richer concentrate cousin
+                made through a prolonged, room temperature brewing process.
+                Perfect for warm days when you have things to get done.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
