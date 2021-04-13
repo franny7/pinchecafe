@@ -6,11 +6,11 @@
   background-position: center;
   height: 50vh;
   margin: 0;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .footer-floater {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
   width: 80vw;
   height: 30vh;
   align-items: center;
@@ -20,20 +20,20 @@
   padding: 20px;
 }
 .footer-floater h3 {
-  padding: 10px 0;
+  padding: 7px 0;
+  color: #baa375;
 }
 
 .footer-floater p {
-  font-size: 1.3em;
-  color: #baa375;
+  font-size: 1.5em;
   font-weight: bold;
   padding: 0 15px;
 }
 
 .footer-floater a {
   padding: 0 15px;
-  color: #baa375;
   font-weight: bold;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 .floater-div {
@@ -46,7 +46,7 @@
 .footer-bottom {
   color: #baa375;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.5em;
   margin: 0 35px;
   padding: 20px;
 }
@@ -69,9 +69,9 @@
   }
 }
 
-@media screen and (max-height: 1105px) {
+@media screen and (max-height: 1130px) {
   #footer {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .footer-floater {
@@ -82,9 +82,19 @@
   .floater-div {
     display: inline-block;
     width: 30%;
-    margin: 0;
-    padding: 10px 0;
+    height: 50%;
+    padding: 20px 0;
     vertical-align: middle;
+  }
+}
+
+@media screen and (max-height: 1130px) and (max-width: 950px) {
+  .floater-div {
+    margin: 30px 30px;
+  }
+
+  .sched-div {
+    display: none;
   }
 }
 
