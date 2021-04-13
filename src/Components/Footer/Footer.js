@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='footer-ref'>
       <div className='border-top border-light'>
-        <div id='footer' className='row justify-content-center bg-dark'>
+        <div id='footer' className='row justify-content-center'>
           <div className='p-3 mb-2 text-white footer-floater'>
             <div className='col justify-content-between text-center floater-div delivery-div'>
               <h3>Delivery</h3>
@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
 
       <div className='border-top border-light border-3'>
-        <ul className='nav justify-content-center fixed-bottom bg-dark'>
+        <ul className='nav justify-content-center fixed-bottom footer-bg'>
           <li className='nav-item'>
             <p className='nav-link footer-bottom' href='#'>
               Copyright &copy; 2021

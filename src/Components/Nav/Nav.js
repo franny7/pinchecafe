@@ -18,7 +18,7 @@ const toggleDropdown = () => {
 
 const navbar = () => {
   return (
-    <div className='navbar nav bg-dark border-bottom border-light border-3'>
+    <div className='navbar nav border-bottom border-light border-3'>
       <Logo />
       <div className='d-flex'>
         <ul className='nav-top'>

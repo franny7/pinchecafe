@@ -1,5 +1,6 @@
 .nav {
   position: relative;
+  background: #212529;
 }
 
 .nav-top {
@@ -11,6 +12,10 @@
   padding: 20px 35px;
   font-size: 1.4em;
   color: #baa375;
+}
+
+.nav-top-a:hover {
+  color: white;
 }
 
 .res-menu {
@@ -58,5 +63,9 @@
     text-decoration: none;
     color: #baa375;
     font-size: 1.4rem;
+  }
+
+  .res-menu-content a:hover {
+    color: white;
   }
 }
