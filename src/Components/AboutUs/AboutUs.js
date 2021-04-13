@@ -22,10 +22,10 @@ const AboutUs = () => {
                 perfect for relaxing your mind and your body.
               </p>
 
-              <h2 className='p-3' style={{ color: '#baa375' }}>
+              <h2 className='p-3 one-of-kind-h3' style={{ color: '#baa375' }}>
                 One of A Kind
               </h2>
-              <p>
+              <p className='res-p'>
                 We offer a delicious variety of coffee made by our
                 professionally trained baristas. We have everything from classic
                 coffee to our house made specialty beverages. All of our sauces
