@@ -12,7 +12,7 @@ const Footer = () => {
               <p>(951)-123-4567</p>
               <p>ordercafe@gmail.com</p>
             </div>
-            <div className='col justify-content-between text-center floater-div'>
+            <div className='col justify-content-between text-center floater-div sched-div'>
               <h3>Open Every Day</h3>
               <p>
                 Monday-Friday <br></br> 06:00am-11:00pm

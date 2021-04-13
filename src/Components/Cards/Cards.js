@@ -22,7 +22,7 @@ const Cards = () => {
               src='https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
             />
             <Card.Body>
-              <Card.Title className='fs-3' style={{ color: '#baa529' }}>
+              <Card.Title className='fs-3' style={{ color: '#baa375' }}>
                 Cappuccino
               </Card.Title>
               <Card.Text>
@@ -32,9 +32,7 @@ const Cards = () => {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small style={{ color: '#baa529' }}>
-                Last updated 3 mins ago
-              </small>
+              <h3 style={{ color: '#baa375' }}>$3.65</h3>
             </Card.Footer>
           </Card>
           <Card
@@ -50,7 +48,7 @@ const Cards = () => {
               src='https://images.pexels.com/photos/230588/pexels-photo-230588.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
             />
             <Card.Body>
-              <Card.Title className='fs-3' style={{ color: '#baa529' }}>
+              <Card.Title className='fs-3' style={{ color: '#baa375' }}>
                 Frappe
               </Card.Title>
               <Card.Text>
@@ -61,9 +59,7 @@ const Cards = () => {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small style={{ color: '#baa529' }}>
-                Last updated 3 mins ago
-              </small>
+              <h3 style={{ color: '#baa375' }}>$4.25</h3>
             </Card.Footer>
           </Card>
           <Card
@@ -79,19 +75,17 @@ const Cards = () => {
               src='https://images.pexels.com/photos/1193335/pexels-photo-1193335.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
             />
             <Card.Body>
-              <Card.Title className='fs-3' style={{ color: '#baa529' }}>
+              <Card.Title className='fs-3' style={{ color: '#baa375' }}>
                 Cold Brew
               </Card.Title>
               <Card.Text>
-                Cold Brew: iced coffee's less acidic, richer concentrate cousin
-                made through a prolonged, room temperature brewing process.
-                Perfect for warm days when you have things to get done.
+                Iced coffee's less acidic, richer concentrate cousin made
+                through a prolonged, room temperature brewing process. Perfect
+                for warm days when you have things to get done.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small style={{ color: '#baa529' }}>
-                Last updated 3 mins ago
-              </small>
+              <h3 style={{ color: '#baa375' }}>#3.95</h3>
             </Card.Footer>
           </Card>
         </CardGroup>
@@ -112,7 +106,7 @@ const Cards = () => {
               src='https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
             />
             <Card.Body>
-              <Card.Title className='fs-3' style={{ color: '#baa529' }}>
+              <Card.Title className='fs-3' style={{ color: '#baa375' }}>
                 Cappuccino
               </Card.Title>
               <Card.Text>
@@ -122,9 +116,7 @@ const Cards = () => {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small style={{ color: '#baa529' }}>
-                Last updated 3 mins ago
-              </small>
+              <h3 style={{ color: '#baa375' }}>$3.65</h3>
             </Card.Footer>
           </Card>
           <Card
@@ -140,7 +132,7 @@ const Cards = () => {
               src='https://images.pexels.com/photos/230588/pexels-photo-230588.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
             />
             <Card.Body>
-              <Card.Title className='fs-3' style={{ color: '#baa529' }}>
+              <Card.Title className='fs-3' style={{ color: '#baa375' }}>
                 Frappe
               </Card.Title>
               <Card.Text>
@@ -151,9 +143,7 @@ const Cards = () => {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small style={{ color: '#baa529' }}>
-                Last updated 3 mins ago
-              </small>
+              <h3 style={{ color: '#baa375' }}>$4.25</h3>
             </Card.Footer>
           </Card>
           <Card
@@ -169,19 +159,17 @@ const Cards = () => {
               src='https://images.pexels.com/photos/1193335/pexels-photo-1193335.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
             />
             <Card.Body>
-              <Card.Title className='fs-3' style={{ color: '#baa529' }}>
+              <Card.Title className='fs-3' style={{ color: '#baa375' }}>
                 Cold Brew
               </Card.Title>
               <Card.Text>
-                Cold Brew: iced coffee's less acidic, richer concentrate cousin
-                made through a prolonged, room temperature brewing process.
-                Perfect for warm days when you have things to get done.
+                Iced coffee's less acidic, richer concentrate cousin made
+                through a prolonged, room temperature brewing process. Perfect
+                for warm days when you have things to get done.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small style={{ color: '#baa529' }}>
-                Last updated 3 mins ago
-              </small>
+              <h3 style={{ color: '#baa375' }}>$3.95</h3>
             </Card.Footer>
           </Card>
         </CardDeck>
