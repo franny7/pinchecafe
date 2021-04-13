@@ -85,7 +85,7 @@ const Cards = () => {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <h3 style={{ color: '#baa375' }}>#3.95</h3>
+              <h3 style={{ color: '#baa375' }}>$3.95</h3>
             </Card.Footer>
           </Card>
         </CardGroup>
