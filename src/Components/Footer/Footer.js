@@ -23,8 +23,11 @@ const Footer = () => {
             </div>
             <div className='col justify-content-between text-center floater-div'>
               <h3>Stay Connected</h3>
+              <a href= 'https://twitter.com/?lang=en'>
+              <i class="fab fa-twitter fa-3x"></i>
+              </a>
               <a href='https://www.instagram.com/accounts/login/'>
-                <i className='fab fa-instagram-square fa-3x'></i>
+                <i className='fab fa-instagram fa-3x'></i>
               </a>
               <a href='https://www.tiktok.com/'>
                 <i className='fab fa-tiktok fa-3x'></i>
