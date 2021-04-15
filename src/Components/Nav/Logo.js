@@ -3,7 +3,7 @@ import logo from '../../images/pinche-cafe-logo-3.png';
 
 const Logo = () => {
   return (
-    <div style={{ paddingLeft: '30px' }}>
+    <div style={{ display: 'flex', float: 'left', paddingLeft: '30px' }}>
       <a href='index.html'>
         <img
           src={logo}

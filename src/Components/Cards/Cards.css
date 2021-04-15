@@ -2,11 +2,19 @@
   font-size: 1.3em;
 }
 
+.card-title {
+  font-size: 1.5em;
+}
+
 #res-cards {
   display: none;
 }
 
-@media screen and (max-width: 1000px) {
+.div-border {
+  border-top: 1px white solid;
+}
+
+@media screen and (max-width: 1258px) {
   #reg-cards {
     display: none;
   }

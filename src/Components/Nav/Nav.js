@@ -18,22 +18,22 @@ const toggleDropdown = () => {
 
 const navbar = () => {
   return (
-    <div className='navbar nav border-bottom border-light border-3'>
-      <Logo />
-      <div className='d-flex'>
-        <ul className='nav-top'>
-          <li className='nav-item'>
-            <a href='#about-us' className='nav-link link-light nav-top-a'>
+    <div className='nav-menu'>
+      <div>
+        <Logo />
+        <ul className='nav-ul'>
+          <li className='nav-ul-li'>
+            <a href='#about-us' className='nav-top-a'>
               About Us
             </a>
           </li>
-          <li className='nav-item'>
-            <a href='#popular-drinks' className='nav-link link-light nav-top-a'>
+          <li className='nav-ul-li'>
+            <a href='#popular-drinks' className='nav-top-a'>
               Popular Drinks
             </a>
           </li>
-          <li className='nav-item'>
-            <a href='#footer' className='nav-link link-light nav-top-a'>
+          <li className='nav-ul-li'>
+            <a href='#footer' className='nav-top-a'>
               Cafe info
             </a>
           </li>
@@ -57,19 +57,13 @@ const navbar = () => {
         <div id='dropdown-content' className='res-menu-content'>
           <ul>
             <li>
-              <a href='#about-us' className='nav-link link-light'>
-                About Us
-              </a>
+              <a href='#about-us'>About Us</a>
             </li>
             <li>
-              <a href='#popular-drinks' className='nav-link link-light'>
-                Popular Drinks
-              </a>
+              <a href='#popular-drinks'>Popular Drinks</a>
             </li>
             <li>
-              <a href='#footer' className='nav-link link-light'>
-                Cafe Info
-              </a>
+              <a href='#footer'>Cafe Info</a>
             </li>
           </ul>
         </div>

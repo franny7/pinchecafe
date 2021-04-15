@@ -4,13 +4,13 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <div>
+    <div className='div-border'>
       <Jumbotron>
-        <h1 className='pt-5'>
+        <h1 className='header-padding'>
           Welcome to <br />
           ¡Pinché Café!
         </h1>
-        <p className=' pt-3 fs-3'>Wake up. Coffee. Innovate. Repeat.</p>
+        <p className='header-p'>Wake up. Coffee. Innovate. Repeat.</p>
       </Jumbotron>
     </div>
   );

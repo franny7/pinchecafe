@@ -9,11 +9,15 @@
   font-size: 1.1rem;
 }
 
+.div-border {
+  border-top: 1px white solid;
+}
+
 .footer-floater {
   background: rgba(0, 0, 0, 0.7);
   width: 80vw;
   height: 30vh;
-  align-items: center;
+  margin: auto;
   position: relative;
   top: 50%;
   transform: translate(0, -50%);
@@ -28,6 +32,7 @@
   font-size: 1.5em;
   font-weight: bold;
   padding: 0 15px;
+  color: white;
 }
 
 .footer-floater a {
@@ -43,16 +48,23 @@
   vertical-align: middle;
 }
 
-.footer-bottom {
+.footer-bg {
+  background-color: #212529;
+  display: flex;
   color: #baa375;
   font-weight: bold;
   font-size: 1.5em;
-  margin: 0 35px;
-  padding: 20px;
+  padding: 25px;
+  width: 100%;
+  height: auto;
 }
 
-.footer-bg {
-  background-color: #212529;
+.footer-bottom-p {
+  margin: auto;
+}
+
+#res-icons {
+  display: none;
 }
 
 @media screen and (max-width: 1195px) {
@@ -94,7 +106,8 @@
 
 @media screen and (max-height: 1130px) and (max-width: 950px) {
   .floater-div {
-    margin: 30px 30px;
+    margin: 30px 0px;
+    width: 50%;
   }
 
   .sched-div {
@@ -123,8 +136,20 @@
   .delivery-div {
     display: none;
   }
+}
 
-  .footer-bottom {
-    padding: 10px;
+@media screen and (max-width: 380px) {
+  .footer-floater {
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 950px) and (max-height: 1130px) {
+  #icons {
+    display: none;
+  }
+
+  #res-icons {
+    display: inline-block;
   }
 }

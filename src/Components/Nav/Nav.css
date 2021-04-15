@@ -1,17 +1,28 @@
-.nav {
-  position: relative;
+.nav-menu {
   background: #212529;
+  margin: 0;
+  overflow: hidden;
 }
 
-.nav-top {
+.nav-ul {
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-direction: row;
+  float: right;
+}
+
+.nav-ul-li {
+  display: inline-block;
+  list-style-type: none;
 }
 
 .nav-top-a {
-  padding: 20px 35px;
-  font-size: 1.4em;
   color: #baa375;
+  padding: 20px 35px;
+  display: block;
+  line-height: 3em;
+  font-size: 1.4em;
+  text-decoration: none;
 }
 
 .nav-top-a:hover {
@@ -28,17 +39,19 @@
     display: none;
   }
 
-  .nav-top {
+  .nav-ul-li {
     display: none;
   }
 
   .res-menu {
-    display: inline-flex;
+    display: flex;
+    float: right;
+    padding: 20px 35px;
   }
 
   .res-menu-content {
     position: absolute;
-    top: 115px;
+    top: 100px;
     right: 0px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);

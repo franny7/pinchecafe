@@ -6,7 +6,7 @@ import './Cards.css';
 
 const Cards = () => {
   return (
-    <div id='popular-drinks' className='border-bottom border-light border-1'>
+    <div id='popular-drinks'>
       <div id='reg-cards'>
         <CardGroup>
           <Card
@@ -22,7 +22,7 @@ const Cards = () => {
               src='https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
             />
             <Card.Body>
-              <Card.Title className='fs-3' style={{ color: '#baa375' }}>
+              <Card.Title className='card-title' style={{ color: '#baa375' }}>
                 Cappuccino
               </Card.Title>
               <Card.Text>
@@ -48,7 +48,7 @@ const Cards = () => {
               src='https://images.pexels.com/photos/230588/pexels-photo-230588.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
             />
             <Card.Body>
-              <Card.Title className='fs-3' style={{ color: '#baa375' }}>
+              <Card.Title className='card-title' style={{ color: '#baa375' }}>
                 Frappe
               </Card.Title>
               <Card.Text>
@@ -75,7 +75,7 @@ const Cards = () => {
               src='https://images.pexels.com/photos/1193335/pexels-photo-1193335.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
             />
             <Card.Body>
-              <Card.Title className='fs-3' style={{ color: '#baa375' }}>
+              <Card.Title className='card-title' style={{ color: '#baa375' }}>
                 Cold Brew
               </Card.Title>
               <Card.Text>
@@ -106,7 +106,7 @@ const Cards = () => {
               src='https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
             />
             <Card.Body>
-              <Card.Title className='fs-3' style={{ color: '#baa375' }}>
+              <Card.Title className='card-title' style={{ color: '#baa375' }}>
                 Cappuccino
               </Card.Title>
               <Card.Text>
@@ -132,7 +132,7 @@ const Cards = () => {
               src='https://images.pexels.com/photos/230588/pexels-photo-230588.jpeg?auto=compress&cs=tinysrgb&h=650&w=940'
             />
             <Card.Body>
-              <Card.Title className='fs-3' style={{ color: '#baa375' }}>
+              <Card.Title className='card-title' style={{ color: '#baa375' }}>
                 Frappe
               </Card.Title>
               <Card.Text>
@@ -159,7 +159,7 @@ const Cards = () => {
               src='https://images.pexels.com/photos/1193335/pexels-photo-1193335.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
             />
             <Card.Body>
-              <Card.Title className='fs-3' style={{ color: '#baa375' }}>
+              <Card.Title className='card-title' style={{ color: '#baa375' }}>
                 Cold Brew
               </Card.Title>
               <Card.Text>

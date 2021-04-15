@@ -6,3 +6,16 @@
   background-position: center;
   height: 100vh;
 }
+
+.div-border {
+  border-top: 1px white solid;
+}
+
+.header-padding {
+  padding-top: 70px;
+}
+
+.header-p {
+  padding-top: 20px;
+  font-size: 1.5em;
+}
