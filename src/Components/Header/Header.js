@@ -5,7 +5,7 @@ import './Header.css';
 const Header = () => {
   return (
     <div className='div-border'>
-      <Jumbotron>
+      <Jumbotron style={{ margin: '0' }}>
         <h1 className='header-padding'>
           Welcome to <br />
           ¡Pinché Café!

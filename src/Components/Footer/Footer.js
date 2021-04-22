@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <div className='footer-ref'>
-      <div id='footer' className=''>
+      <div id='footer'>
         <div className='footer-floater'>
           <div className='floater-div delivery-div'>
             <h3>Delivery</h3>

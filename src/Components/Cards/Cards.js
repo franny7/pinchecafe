@@ -13,8 +13,7 @@ const Cards = () => {
             style={{
               backgroundColor: '#212529',
               color: 'white',
-              borderColor: 'white',
-              padding: '80px 20px',
+              margin: '0',
             }}
           >
             <Card.Img
@@ -39,8 +38,7 @@ const Cards = () => {
             style={{
               backgroundColor: '#212529',
               color: 'white',
-              borderColor: 'white',
-              padding: '80px 20px',
+              margin: '0',
             }}
           >
             <Card.Img
@@ -66,8 +64,7 @@ const Cards = () => {
             style={{
               backgroundColor: '#212529',
               color: 'white',
-              borderColor: 'white',
-              padding: '80px 20px',
+              margin: '0',
             }}
           >
             <Card.Img
@@ -97,8 +94,7 @@ const Cards = () => {
             style={{
               backgroundColor: '#212529',
               color: 'white',
-              borderColor: 'white',
-              padding: '60px 80px',
+              margin: '0',
             }}
           >
             <Card.Img
@@ -123,8 +119,7 @@ const Cards = () => {
             style={{
               backgroundColor: '#212529',
               color: 'white',
-              borderColor: 'white',
-              padding: '60px 80px',
+              margin: '0',
             }}
           >
             <Card.Img
@@ -150,8 +145,7 @@ const Cards = () => {
             style={{
               backgroundColor: '#212529',
               color: 'white',
-              borderColor: 'white',
-              padding: '60px 80px',
+              margin: '0',
             }}
           >
             <Card.Img
