@@ -6,7 +6,7 @@ import './Cards.css';
 
 const Cards = () => {
   return (
-    <div id='popular-drinks'>
+    <div id='popular-drinks div-border'>
       <div id='reg-cards'>
         <CardGroup>
           <Card
