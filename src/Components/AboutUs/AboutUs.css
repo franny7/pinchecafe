@@ -82,3 +82,9 @@
     font-size: 19px;
   }
 }
+
+@media screen and (max-width: 650px) {
+  .about-us-bg {
+    height: 80vh;
+  }
+}
