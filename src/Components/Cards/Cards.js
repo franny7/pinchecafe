@@ -7,6 +7,20 @@ import './Cards.css';
 const Cards = () => {
   return (
     <div id='popular-drinks div-border'>
+      <div id='drinks-header' className='div-border'>
+        <h2
+          style={{
+            backgroundColor: '#212529',
+            color: '#baa375',
+            display: 'flex',
+            justifyContent: 'center',
+            padding: '50px',
+            margin: '0',
+          }}
+        >
+          Some Fan Favorites
+        </h2>
+      </div>
       <div id='reg-cards'>
         <CardGroup>
           <Card

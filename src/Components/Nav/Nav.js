@@ -28,13 +28,13 @@ const navbar = () => {
             </a>
           </li>
           <li className='nav-ul-li'>
-            <a href='#popular-drinks' className='nav-top-a'>
+            <a href='#drinks-header' className='nav-top-a'>
               Popular Drinks
             </a>
           </li>
           <li className='nav-ul-li'>
             <a href='#footer' className='nav-top-a'>
-              Cafe info
+              Cafe Info
             </a>
           </li>
         </ul>
@@ -60,7 +60,7 @@ const navbar = () => {
               <a href='#about-us'>About Us</a>
             </li>
             <li>
-              <a href='#popular-drinks'>Popular Drinks</a>
+              <a href='#drinks-header'>Popular Drinks</a>
             </li>
             <li>
               <a href='#footer'>Cafe Info</a>
